@@ -25,13 +25,12 @@
     --header-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --header-padding: 20px;
     --header-min-height: 1024px;
-    --main-top-padding: 60px;
+    --main-top-padding: 70px;
   }
 }
 
 @media (width >= 1024px) {
   :root {
     --header-min-height: 768px;
-    --main-top-padding: 70px;
   }
 }
