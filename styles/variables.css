@@ -32,5 +32,6 @@
 @media (width >= 1024px) {
   :root {
     --header-min-height: 768px;
+    --main-top-padding: 70px;
   }
 }
