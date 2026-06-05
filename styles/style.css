@@ -166,7 +166,7 @@ h4 {
 }
 
 .main__content-article-text:last-child {
-  margin-bottom: 20px;
+  margin-bottom: var(--content-article-text-margin-bottom);
 }
 
 .main__content-link {
@@ -245,10 +245,6 @@ h4 {
 
   .main__content-section {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .main__content-article-text:last-child {
-    margin-bottom: 15px;
   }
 
   .main__why-so-difficult-article {
@@ -337,10 +333,6 @@ h4 {
   .header__theme-menu-list {
     flex-direction: row;
     gap: 20px;
-  }
-
-  .main__content-article-text:last-child {
-    margin-bottom: 10px;
   }
 
   .main__what-decreases-article {

@@ -16,6 +16,7 @@
   --header-padding: 10px;
   --header-min-height: 668px;
   --main-top-padding: 40px;
+  --content-article-text-margin-bottom: 17px;
   --article-text-color: #f1b2ce;
   --decorative-text-display: inline-block;
 }
@@ -26,11 +27,13 @@
     --header-padding: 20px;
     --header-min-height: 1024px;
     --main-top-padding: 70px;
+    --content-article-text-margin-bottom: 15px;
   }
 }
 
 @media (width >= 1024px) {
   :root {
     --header-min-height: 768px;
+    --content-article-text-margin-bottom: 10px;
   }
 }
