@@ -163,6 +163,7 @@ h4 {
   color: var(--article-text-color);
   font-family: var(--common-font-family);
   font-size: var(--common-font-size);
+  line-height: 1.25;
 }
 
 .main__content-article-text:last-child {
@@ -270,6 +271,10 @@ h4 {
     grid-column-end: 4;
   }
 
+  .main__content-article-text {
+    line-height: normal;
+  }
+
   .main__gallery-section {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content fit-content fit-content fit-content;
@@ -340,5 +345,5 @@ h4 {
     grid-column-end: inherit;
     grid-row-start: 2;
     grid-row-end: auto;
-  }
+  }  
 }
