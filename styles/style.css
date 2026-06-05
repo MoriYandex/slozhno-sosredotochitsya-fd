@@ -93,15 +93,6 @@ h4 {
   background-color: var(--accent-color);
 }
 
-h5 {
-  justify-self: center;
-  align-self: center;
-  color: var(--header-and-footer-color);
-  font-family: var(--common-font-family);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  text-shadow: 2px 2px var(--footer-accent-color);
-}
-
 .header__decorative-text-item {
   position: absolute;
   top: var(--header-padding);
@@ -205,6 +196,16 @@ h5 {
   height: 100vh;
   min-height: 668px;
   padding: 10px;
+}
+
+.footer__main-label {
+  justify-self: center;
+  align-self: center;
+  color: var(--header-and-footer-color);
+  font-family: var(--common-font-family);
+  font-size: var(--header-font-size);
+  font-weight: bold;
+  text-shadow: 2px 2px var(--footer-accent-color);
 }
 
 @media (width > 768px) {
