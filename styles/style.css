@@ -161,6 +161,7 @@ h4 {
   grid-template-columns: 1fr;
   gap: 15px;
   padding: var(--main-top-padding) 0 0 0;
+  margin-bottom: 10px;
 }
 
 .main__content-section:last-child {
