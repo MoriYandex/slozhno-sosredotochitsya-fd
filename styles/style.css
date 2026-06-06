@@ -71,7 +71,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: var(--section-header-color);
   font-family: var(--common-font-family);
   font-weight: bold;
@@ -255,10 +255,6 @@ h4 {
     grid-row-end: auto;
     justify-self: self-start;
     margin-left: -20px;
-  }
-
-  h2 {
-    margin-bottom: 10px;
   }
   
   .header__decorative-text-item {
