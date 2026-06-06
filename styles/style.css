@@ -71,7 +71,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   color: var(--section-header-color);
   font-family: var(--common-font-family);
   font-weight: bold;
