@@ -263,6 +263,7 @@ h4 {
   .main__content-section {
     grid-template-columns: 1fr 2fr;
     column-gap: 25px;
+    row-gap: 13px;
   }
 
   .main__why-so-difficult-section article {
