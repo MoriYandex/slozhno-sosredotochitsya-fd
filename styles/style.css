@@ -185,8 +185,7 @@ h4 {
 
 .main__how-to-concentrate-section h3 {
     margin-bottom: 0;
-  }
-
+}
 /*.main__content-article-text:last-child {
   margin-bottom: var(--content-article-text-margin-bottom);
 }*/
@@ -320,7 +319,7 @@ h4 {
   .main__gallery-section {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: min-content fit-content fit-content fit-content;
-    gap: 10px;
+    gap: 20px;
   }
 
   .main__gallery-header {
