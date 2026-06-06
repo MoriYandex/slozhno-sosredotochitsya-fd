@@ -17,6 +17,7 @@
   --header-min-height: 668px;
   --main-top-padding: 40px;
   --content-article-text-margin-bottom: 11px;
+  --content-header-how-to-concentrate-margin-bottom: 11px;
   --article-text-color: #f1b2ce;
   --decorative-text-display: inline-block;
 }
@@ -28,6 +29,7 @@
     --header-min-height: 1024px;
     --main-top-padding: 70px;
     --content-article-text-margin-bottom: 15px;
+    --content-header-how-to-concentrate-margin-bottom: 15px;
   }
 }
 
