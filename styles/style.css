@@ -163,7 +163,6 @@ h4 {
   color: var(--article-text-color);
   font-family: var(--common-font-family);
   font-size: var(--common-font-size);
-  line-height: 1.27;
 }
 
 .main__content-article-text:last-child {
