@@ -159,7 +159,7 @@ h4 {
 .main__content-section {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 15px;
+  gap: 20px;
   padding: var(--main-top-padding) 0 0 0;
   margin-bottom: 10px;
 }
