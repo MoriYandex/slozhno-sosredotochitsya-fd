@@ -159,7 +159,7 @@ h4 {
 .main__content-section {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 20px;
   padding: var(--main-top-padding) 0 0 0;
 }
 
@@ -172,7 +172,7 @@ h4 {
     grid-row-end: auto;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 20px;
   }
 
 .main__content-article-text {
@@ -182,9 +182,9 @@ h4 {
   line-height: 1.3;
 }
 
-.main__content-article-text:last-child {
+/*.main__content-article-text:last-child {
   margin-bottom: var(--content-article-text-margin-bottom);
-}
+}*/
 
 .main__content-link {
   text-decoration: none;
