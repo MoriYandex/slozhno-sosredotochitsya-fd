@@ -183,6 +183,10 @@ h4 {
   line-height: 1.3;
 }
 
+.main__how-to-concentrate-section h3 {
+    margin-bottom: 0;
+  }
+
 /*.main__content-article-text:last-child {
   margin-bottom: var(--content-article-text-margin-bottom);
 }*/
@@ -198,6 +202,10 @@ h4 {
 
 .main__content-link:focus-visible {
   border: 1px solid currentColor;
+}
+
+.main__gallery-section {
+  gap: 10px;
 }
 
 .main__gallery-header {
@@ -296,11 +304,7 @@ h4 {
     grid-column-end: auto;
     grid-row-start: 1;
     grid-row-end: 3;
-  }
-
-  .main__how-to-concentrate-section h3 {
-    margin-bottom: 0;
-  }
+  }  
 
   .main__how-to-concentrate-section h3,
   .main__how-to-concentrate-section article {
