@@ -261,18 +261,18 @@ h4 {
   }
 
   .main__content-section {
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 35px;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 30px;
   }
 
   .main__why-so-difficult-section article {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: auto;
   }
 
   .main__content-inner-grid {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
   }
 
   .main__how-to-concentrate-section h2 {
@@ -285,7 +285,7 @@ h4 {
   .main__how-to-concentrate-section h3,
   .main__how-to-concentrate-section article {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: auto;
   }
 
   .main__content-article-text {
@@ -359,6 +359,7 @@ h4 {
   }
 
   .main__content-section {
+    grid-template-columns: repeat(3, 1fr);
     margin-bottom: 10px;
     column-gap: 15px;
   }
