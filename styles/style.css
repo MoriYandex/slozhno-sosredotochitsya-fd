@@ -389,4 +389,8 @@ h4 {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
   }
+
+  .main__gallery-section {
+    gap: 20px;
+  }  
 }
