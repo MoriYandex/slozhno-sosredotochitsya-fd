@@ -376,6 +376,7 @@ h4 {
 
   .main__content-section {
     column-gap: 10px;
+    row-gap: 22px;
   }
 
   /*.main__content-section {
