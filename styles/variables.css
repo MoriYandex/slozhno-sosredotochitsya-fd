@@ -41,7 +41,7 @@
   :root {
     --header-min-height: 768px;
     --main-top-padding: 65px;
-    --last-section-bottom-padding: 20px;    
+    --last-section-bottom-padding: 20px;
     --content-article-text-margin-bottom: 10px;
   }
 }
