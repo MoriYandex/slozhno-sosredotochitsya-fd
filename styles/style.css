@@ -280,6 +280,7 @@ h4 {
   .main__content-inner-grid {
     grid-column-start: 1;
     grid-column-end: 3;
+    row-gap: 22px;
   }
 
   .main__how-to-concentrate-section h2 {
