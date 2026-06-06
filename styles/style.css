@@ -167,6 +167,14 @@ h4 {
   padding-bottom: var(--last-paragraph-bottom-padding);
 }
 
+.main__content-inner-grid {
+    grid-row-start: 2;
+    grid-row-end: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
 .main__content-article-text {
   color: var(--article-text-color);
   font-family: var(--common-font-family);
@@ -262,12 +270,8 @@ h4 {
   }
 
   .main__content-inner-grid {
-    grid-row-start: 2;
-    grid-row-end: auto;
     grid-column-start: 1;
     grid-column-end: 4;
-    display: grid;
-    grid-template-columns: 1fr;
   }
 
   .main__how-to-concentrate-section h2 {
@@ -356,5 +360,5 @@ h4 {
   .main__content-inner-grid {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
-  }  
+  }
 }
