@@ -164,7 +164,7 @@ h4 {
 }
 
 .main__content-section:last-child {
-  padding-bottom: var(--last-paragraph-bottom-padding);
+  padding-bottom: var(--last-section-bottom-padding);
 }
 
 .main__content-inner-grid {
@@ -357,6 +357,10 @@ h4 {
     gap: 20px;
   }
 
+  .main__content-section {
+    margin-bottom: 10px;
+  }
+  
   .main__content-inner-grid {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
