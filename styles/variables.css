@@ -18,7 +18,7 @@
   --header-padding: 10px;
   --header-min-height: 668px;
   --main-top-padding: 40px;
-  --last-section-bottom-padding: 40px;
+  --last-section-bottom-padding: 30px;
   --content-article-text-margin-bottom: 11px;
   --content-header-how-to-concentrate-margin-bottom: 11px;
   --article-text-color: #f1b2ce;
@@ -31,7 +31,7 @@
     --header-padding: 20px;
     --header-min-height: 1024px;
     --main-top-padding: 65px;
-    --last-section-bottom-padding: 70px;
+    --last-section-bottom-padding: 60px;
     --content-article-text-margin-bottom: 15px;
     --content-header-how-to-concentrate-margin-bottom: 15px;
   }
@@ -41,6 +41,7 @@
   :root {
     --header-min-height: 768px;
     --main-top-padding: 65px;
+    --last-section-bottom-padding: 20px;    
     --content-article-text-margin-bottom: 10px;
   }
 }

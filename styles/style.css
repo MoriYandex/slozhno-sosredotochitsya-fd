@@ -262,6 +262,7 @@ h4 {
 
   .main__content-section {
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
   }
 
   .main__why-so-difficult-section article {
@@ -359,8 +360,9 @@ h4 {
 
   .main__content-section {
     margin-bottom: 10px;
+    column-gap: 5px;
   }
-  
+
   .main__content-inner-grid {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
