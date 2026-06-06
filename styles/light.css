@@ -9,10 +9,12 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --page-background-color: #fff1f7;
   --cover-image-url: url("../images/cover-image-light.png");
   --header-and-footer-color: #ffc2e6;
   --accent-color: #ff8dcb;
   --section-header-color: #353430;
+  --menu-border-transparent-color: #35343080;
   --title-decor-background-color: #ff8dcb;
   --title-color: #353430;
   --article-text-color: #353430;
@@ -21,10 +23,12 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --page-background-color: #fff1f7;
     --cover-image-url: url("../images/cover-image-light.png");
     --header-and-footer-color: #ffc2e6;
     --accent-color: #ff8dcb;
     --section-header-color: #353430;
+    --menu-border-transparent-color: #35343080;
     --title-decor-background-color: #ff8dcb;
     --title-color: #353430;
     --article-text-color: #353430;

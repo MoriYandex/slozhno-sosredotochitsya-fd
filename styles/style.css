@@ -7,6 +7,7 @@
   background-position: center; /* Центрирование */
   background-size: cover; /* Изображение покрывает весь элемент */
   background-attachment: fixed;
+  background-color: var(--page-background-color);
 }
 
 .header {
@@ -33,6 +34,7 @@
 .header__theme-menu-button {
   width: 70px;
   border: none;
+  cursor: pointer;
   color: var(--section-header-color);
   font-family: var(--common-font-family);
   font-size: var(--common-font-size);
@@ -42,10 +44,16 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--section-header-color);
+  touch-action: none;
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
-  border-bottom: 1px solid var(--section-header-color);
+  border: 1px solid var(--menu-border-transparent-color);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
@@ -56,8 +64,8 @@ h1 {
   justify-self: center;
   align-self: center;
   color: var(--header-and-footer-color);
-  font-family: var(--common-font-family);
-  font-size: var(--header-font-size);
+  font-family: var(--common-font-family); /*fallback добавлен в переменную*/
+  font-size: var(--header-and-footer-font-size);
   line-height: 83%;
   text-shadow: 4px 4px var(--accent-color);
 }
@@ -156,7 +164,7 @@ h4 {
 }
 
 .main__content-section:last-child {
-  padding-bottom: var(--main-top-padding);
+  padding-bottom: var(--last-paragraph-bottom-padding);
 }
 
 .main__content-article-text {
@@ -176,11 +184,11 @@ h4 {
 }
 
 .main__content-link:hover {
-  border-bottom: 1px solid var(--article-text-color);
+  border-bottom: 1px solid currentColor;
 }
 
 .main__content-link:focus-visible {
-  border: 1px solid var(--article-text-color);
+  border: 1px solid currentColor;
 }
 
 .main__gallery-header {
@@ -207,7 +215,7 @@ h4 {
   align-self: center;
   color: var(--header-and-footer-color);
   font-family: var(--common-font-family);
-  font-size: var(--header-font-size);
+  font-size: var(--header-and-footer-font-size);
   font-weight: bold;
   text-shadow: 2px 2px var(--footer-accent-color);
 }
@@ -237,7 +245,7 @@ h4 {
     grid-row-start: 2;
     grid-row-end: auto;
     justify-self: self-start;
-    margin-left: -10px;
+    margin-left: -20px;
   }
   
   .header__decorative-text-item {
@@ -248,25 +256,29 @@ h4 {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .main__why-so-difficult-article {
+  .main__why-so-difficult-section article {
     grid-column-start: 2;
     grid-column-end: 4;
   }
 
-  .main__what-decreases-article {
+  .main__content-inner-grid {
+    grid-row-start: 2;
+    grid-row-end: auto;
     grid-column-start: 1;
     grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
-  .main__how-to-concentrate-header {
+  .main__how-to-concentrate-section h2 {
     grid-column-start: 1;
     grid-column-end: auto;
     grid-row-start: 1;
     grid-row-end: 3;
   }
 
-  .main__how-to-concentrate-subheader,
-  .main__how-to-concentrate-article {
+  .main__how-to-concentrate-section h3,
+  .main__how-to-concentrate-section article {
     grid-column-start: 2;
     grid-column-end: 4;
   }
@@ -341,10 +353,8 @@ h4 {
     gap: 20px;
   }
 
-  .main__what-decreases-article {
-    grid-column-start: inherit;
-    grid-column-end: inherit;
-    grid-row-start: 2;
-    grid-row-end: auto;
-  }
+  .main__content-inner-grid {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+  }  
 }
